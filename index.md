@@ -13,7 +13,7 @@ layout: home
       <p class="card-description">
         {{card.description | truncate:100}}
       </p>
-      <a href="#" class="buy-button button info">
+      <a href="#" class="buy-button button button-action">
         Buy Now
       </a>
     </div>

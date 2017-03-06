@@ -58,8 +58,8 @@ body {
 }
 
 .card-grid {
-  margin-left: -6px;
-  margin-right: -6px;
+  margin-left: -12px;
+  margin-right: -12px;
   margin-bottom: 24px;
 }
 
@@ -67,7 +67,7 @@ body {
 .card-wrapper {
   float:left;
   width: 100%;
-  padding: 6px;
+  padding: 12px;
   @extend %clearfix;
   // box-sizing: border-box;
   @include media-query($on-palm) {
@@ -100,10 +100,12 @@ body {
   }
 
   .card-title {
-    font-weight: 700;
-  }
-  .card-description {
     font-weight: 300;
+    min-height: 48px;
+
+    }
+  .card-description {
+    font-weight: 200;
     line-height: 1.2rem;
   }
   img {
